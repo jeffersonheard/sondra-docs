@@ -1,0 +1,72 @@
+baseurl = "https://jeffersonheard.github.io/sondra/"
+languageCode = "en-us"
+title = "Sondra Documentation"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+
+[params]
+	# General information
+	author = "Jefferson Heard"
+	description = "A framework for creating rich APIs with Python and RethinkDB."
+	copyright = "Released under the MIT license"
+
+	# Repository
+	provider = "GitHub"
+	repo_url = "https://github.com/jeffersonheard/sondra"
+
+	version = "1.0.0"
+	logo = "/img/sondra.svg"
+	favicon = ""
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "brown"
+    	accent  = "teal"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+
+[social]
+	twitter = "jeffersonheard"
+	github  = "jeffersonheard"
+	email   = "jefferson.r.heard@gmail.com"
+
+
+[[menu.main]]
+	name   = "Introduction"
+	url    = "/"
+	weight = 0
+
+[[menu.main]]
+	name   = "Tutorial"
+	url    = "basics"
+	weight = 10
+
+[[menu.main]]
+	name   = "Topical Guides"
+	url    = "topical-guides"
+	weight = 20
+
+[[menu.main]]
+  name   = 'Extending'
+  url   = 'extending'
+  weight = 30
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
