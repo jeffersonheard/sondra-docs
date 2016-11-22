@@ -1,5 +1,5 @@
 ---
-weight: 3
+weight: 4
 chapter: true
 icon: "<b>I. </b>"
 date: "2016-10-12T16:38:08-04:00"
